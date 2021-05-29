@@ -16,12 +16,12 @@ public class IntQueue {
     }
 
     public IntQueue(int capacity) {
-        ptr  = front = rear = 0;
+        ptr = front = rear = 0;
         max = capacity;
 
-        try{
+        try {
             queue = new int[max];
-        }catch (OutOfMemoryError e) {
+        } catch (OutOfMemoryError e) {
             max = 0;
         }
     }
@@ -42,7 +42,7 @@ public class IntQueue {
         int x = queue[front++];
         ptr--;
         if (front == max)
-            front =0;
+            front = 0;
         return x;
     }
 
@@ -53,7 +53,7 @@ public class IntQueue {
     }
 
     public int indexOf(int x) {
-        for (int i=0; i < ptr ; i++) {
+        for (int i = 0; i < ptr; i++) {
             int searchNum = (i + front) % max;
             if (queue[searchNum] == x)
                 return searchNum;
@@ -74,7 +74,7 @@ public class IntQueue {
     }
 
     public boolean isEmpty() {
-        return ptr <1;
+        return ptr < 1;
     }
 
     public boolean isFull() {
@@ -84,8 +84,8 @@ public class IntQueue {
     public void dump() {
         if (ptr < 1)
             System.out.println("queue is empty");
-        else{
-            for (int i = 0; i< ptr; i++)
+        else {
+            for (int i = 0; i < ptr; i++)
                 System.out.println(queue[(i + front) % max]);
         }
     }

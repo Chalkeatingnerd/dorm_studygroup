@@ -10,7 +10,7 @@ public class IntStackTester {
             System.out.println("1)push, 2)pop, 3)peek, 4)dump, etc)exit");
             int selectNum = scan.nextInt();
 
-            if(!(selectNum == 1 || selectNum == 2 || selectNum == 3 || selectNum == 4))
+            if (!(selectNum == 1 || selectNum == 2 || selectNum == 3 || selectNum == 4))
                 break;
 
             int x;
@@ -19,23 +19,23 @@ public class IntStackTester {
                     System.out.print("input data : ");
                     x = scan.nextInt();
                     System.out.println();
-                    try{
+                    try {
                         s.push(x);
-                    }catch (IntStack.OverflowStackException e){
+                    } catch (IntStack.OverflowStackException e) {
                         System.out.println("stack is full");
                     }
-                        break;
+                    break;
                 case 2:
-                    try{
+                    try {
                         System.out.println("output data is... : " + s.pop());
-                    }catch (IntStack.EmptyIntStackException e){
+                    } catch (IntStack.EmptyIntStackException e) {
                         System.out.println("stack is empty");
                     }
                     break;
                 case 3:
-                    try{
+                    try {
                         System.out.println("peeked data is... :  " + s.peek());
-                    }catch (IntStack.EmptyIntStackException e) {
+                    } catch (IntStack.EmptyIntStackException e) {
                         System.out.println("stack is empty");
                     }
                     break;

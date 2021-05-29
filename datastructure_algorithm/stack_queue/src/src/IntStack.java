@@ -13,12 +13,12 @@ public class IntStack {
 
     }
 
-    public IntStack (int capacity) {
+    public IntStack(int capacity) {
         ptr = 0;
         max = capacity;
         try {
             stk = new int[max];
-        }catch (OutOfMemoryError e) {
+        } catch (OutOfMemoryError e) {
             max = 0;
         }
     }
@@ -30,27 +30,28 @@ public class IntStack {
     }
 
     public int pop() throws EmptyIntStackException {
-        if (ptr <1 )
+        if (ptr < 1)
             throw new EmptyIntStackException();
         return stk[--ptr];
     }
 
     public int peek() throws EmptyIntStackException {
-        if (ptr <1)
+        if (ptr < 1)
             throw new EmptyIntStackException();
         return stk[ptr - 1];
     }
 
     public int indexOf(int x) {
-        for (int i = 0 ; i < ptr - 1; i++)
-            if (stk[i] ==x )
+        for (int i = 0; i < ptr - 1; i++)
+            if (stk[i] == x)
                 return i;
-            return -1;
+        return -1;
     }
 
     public void clear() {
-        ptr =0;
+        ptr = 0;
     }
+
     public int capacity() {
         return max;
     }
@@ -72,7 +73,7 @@ public class IntStack {
         if (ptr < 1)
             System.out.println("Stack is empty");
         else {
-            for (int i=0; i<ptr; i++) {
+            for (int i = 0; i < ptr; i++) {
                 System.out.println(stk[i]);
             }
         }
