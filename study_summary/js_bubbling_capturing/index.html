@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+    <title>Bubbling vs Capturing</title>
+</head>
+<body>
+    <h2 id="title">Bubbling</h2>
+    <p id="parent">
+        Lorem <strong id="child">Ipsum</strong> is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+        It has survived not only five centuries, but also the leap into electronic typesetting,
+        remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+        Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including
+        versions of Lorem Ipsum.
+    </p>
+    <script type="text/javascript">
+        const parent = document.getElementById("parent");
+        const child = document.getElementById("child");
+
+        parent.addEventListener("click", function () {
+            console.log("I am the PARENT");
+        });
+
+        child.addEventListener("click", function () {
+            console.log("I am the CHILD");
+        });
+
+        /**
+         * -- bubbling --
+         * bubbling and capturing are just a way to define the order in which the eventhandlers occur
+         *
+         * when `child` is clicked, browser prints out both child and parent results
+         *
+         * result
+         * I am the CHILD
+         * I am the PARENT
+         *
+         * -> this is an example of `bubbling`.
+         * at the example above, we go from `child` up to `parent`
+         * in this case, bubbling means we start with the inner-most child element and then work up towards the parent
+         *
+         *
+         * when `parent` is clicked, browser only prints out parent result
+         * I am the PARENT
+         *
+         * by default, the third argument of `addEventListener` is set as false.
+         * which means we're gonna use bubbling.
+         *
+         * */
+    </script>
+
+
+</body>
+</html>

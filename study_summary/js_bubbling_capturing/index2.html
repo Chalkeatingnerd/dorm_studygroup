@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+    <title>Bubbling vs Capturing</title>
+</head>
+<body>
+<h2 id="title">Capturing</h2>
+<p id="parent">
+    Lorem <strong id="child">Ipsum</strong> is simply dummy text of the printing and typesetting industry.
+    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+    It has survived not only five centuries, but also the leap into electronic typesetting,
+    remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+    Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including
+    versions of Lorem Ipsum.
+</p>
+<script type="text/javascript">
+    const parent = document.getElementById("parent");
+    const child = document.getElementById("child");
+
+    parent.addEventListener("click", function () {
+        console.log("I am the PARENT");
+    }, true);
+
+    child.addEventListener("click", function () {
+        console.log("I am the CHILD");
+    });
+
+    /**
+     * -- capturing --
+     *
+     * to use capturing for the event, let's just add `true` for the third argument of the `addEventListener`.
+     *
+     * result
+     * I am the PARENT
+     * I am the CHILD
+     *
+     * -> this is an example of `capturing`.
+     * in this case, the order of the event is reversed.
+     *
+     * */
+</script>
+
+
+</body>
+</html>
