@@ -33,6 +33,8 @@ bubbling과 capturing은 상위/하위 요소가 있는 경우, 유용하게 사
 
 bubbling방식을 사용하면, 자식 객체를 클릭하는 경우 다음과 같이 출력
 
+한 요소에 이벤트가 발생하면, 이 요소에 할당된 핸들러가 동작하고, 이어서 부모 요소의 핸들러가 동작한다. 가장 최상단의 조상 요소를 만날 때까지 이 과정이 반복되면서 요소 각각에 할당된 핸들러가 동작한다.
+
 ```
 I am the CHILD
 I am the PARENT
@@ -50,3 +52,7 @@ I am the CHILD
 ```
 
 결과를 보면 알 수 있듯, capturing방식을 사용하면 bubbling방식과는 반대로 `지정한 상위 요소에 대한 이벤트부터 실행시키고, 그 다음 하위 요소에 대한 이벤트를 실행`시킨다.
+
+[Reference - dcode youtube bubbling vs capturing ](https://www.youtube.com/watch?v=Q6HAJ6bz7bY)
+
+하위 요소를 선택했을 때 해당 이벤트를 발생시키고 상위에 해당하는 이벤트는 실행되지 않도록 하는 설정도 가능한지?
