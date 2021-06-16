@@ -13,10 +13,8 @@ web front-end 사이트 따로, 서버 따로 둔다는 말이다.
 
 그러다가 여러 과정을 겪으면서, CORS라는 방식을 통하면 그게 가능하게끔 풀어주게 된 것이다.
 
-```uml-sequence-diagram
-Web Browser->server: Request
-server->Web Browser: HTMLPage
-```
+<img src="./assets/sq1.png" width="200px" height="200" alt="sequence_diagram">
+
 
 예전에 웹사이트를 만든다고 하면 상당수 위와 같은 구조였다.
 
