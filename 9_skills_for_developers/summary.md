@@ -68,6 +68,7 @@
 * `Process` (Agile, Zero-Bug)
 
 6~10년차 개발자들
+
 * Software Engineer
 * Senior Software Engineer
 
@@ -81,9 +82,9 @@
 * `What` : 무엇을 만드는가
 * `How` : Project Management How / Technical Management How
   
-    `Project Management How` : 일을 누가 언제까지 하는가
+    * `Project Management How` : 일을 누가 언제까지 하는가
   
-    `Technical Management How` : 무슨 기술을 쓰고, 어떤 시스템에서 돌아가는가
+    * `Technical Management How` : 무슨 기술을 쓰고, 어떤 시스템에서 돌아가는가
 
 모든 팀원들이 이러한 점들에 대해서 답을 할 수 있어야 프로젝트에 대한 이해를 하고 있다고 할 수 있고, 진행해나갈 수 있다.
 
@@ -166,6 +167,144 @@ Reference [Book ref : Teach what you know](https://www.amazon.com/Teach-What-You
 4. Managed = Benchmarking : 회사가 잘 하고 있는지 못하고 있는지 적절한 방법으로 측정
 5. Optimized = Continuous Improvement : 측정 결과를 바탕으로 스스로를 변화시켜 나감
 
-Reference [Book ref : I.M WRIGHT's HARD CODE]()
+Reference [Book ref : I.M WRIGHT's HARD CODE](https://imwrightshardcode.com/)
+
+## 3. Business Skills
+
+* `HR System` (Human Resource)
+* `Business Management`
+* `Vision / Goals / Culture`
+
+* 10+ years of development
+  * lead software engineer
+  * technical director, VP of Technology, CTO, CEO
+
+### 3-1. HR System
+
+* Hiring : 고용
+* `Performance Reviews` : 평가
+* Titles(Engineering) : 승진 
+* `Rewards` : 보상
+* `Education` : 교육
+* Benefits : 복지
+...
+  
+![HR_System](assets/HR_System.png)
+
+### 3-2.  HR System - Performance Review
+
+* Example: Software Engineer
+  * Productivity
+  * Professionalism (Reliability)
+  * Teamwork (Communication)
+  * Knowledge
+  * Functionality (No Defect)
+  * Implementation (Good Code)
+  * Design & Architecture
+  
+### 3-3. HR System - Education
+
+* Example: Learning & Development
+
+  * Books, Conferences
+  * Internal seminars, EDGs
+  * College Programs, Tuition
+  * Side projects, Mentoring
+  * Individual Development Plan
+  * Studio Summit, Lunch Groups
+  * Internal mobility (Hiring cross-teams)
+  
+
+## 4. Business Management
+
+* Leading People, Manage Business
+* Making money
+  
+  a certain way
+
+  doing things you are comfortable doing and contributing to society
+
+* ROI(Return over Investment)
+* Capability, Strategy, Tactics, Finance, Economics, Marketing, Sales, CS, Operations, Change
+
+* Balanced Scorecard
+  * Financial Perspective
+  
+  * Customer Perspective
+  
+  * Internal Process Perspective
+  
+  * Learning and Growth Perspective
+  
+* Customer
+  * The company's customers
+  
+  * The leadership
+  
+  * The employees
+  
+## 5. Vision, Goals, and Culture
+
+어떠한 `기업을 운영`한다면 다음과 같은 점들을 고려해보자.
+
+`확실한 철학`, `확실한 비전`, `확실한 컬쳐`가 있으면 그러한 사람들이 모이기 좋다.
+
+* Vision and Goals for the company
+
+* Vision and Goals for the team
+
+* Vision and Goals for you
+
+* Example: Blizzard Mission Statement
+
+  "Dedicated to creating the most epic entertainment experiences ... ever."
+
+* Example: Blizzard Core Values
+
+  * Gameplay first
+  
+  * Commit to quality
+  
+  * Play nice; Play fair
+  
+  * Embrace your inner geek
+  
+  * Every voice matters
+  
+  * Think globally
+  
+  * Lead responsibly
+  
+  * Learn & grow
+
+## 6. Software Development
+
+개인적으로 공부하는 개발 `기술적 부분(Hard Skill)`을 제외한, `프로젝트와 팀을 운영`하는 `Soft SKill`, `비즈니스적 목표와 인사 시스템 등`의 `Business Skill`은, 사내 `다양한 사람들과 소통`하면서 키워나가는 것이 중요하다.
+
+* Hard Skill: Learn by Studying
+  
+* Soft Skill: Learn by Experience
+  
+* Business Skill: Learn from People
+
+
+## 뭘 공부할까요?
+
+다 공부하자. AWS든, Azure든, 어차피 시간이 지나면 없어지거나 새로운 게 출시될 것이기 때문에 계속해서 공부해야한다.
+
+## 어떻게 하면 성장하나요?
+
+좋은 인사고가를 받아야 한다. 또는 스스로를 객관적으로 평가를 하자. `호기심을 가지자`.
+
+엔지니어는 `호기심을 잃어서 그만둔다`.
+
+`계속해서 자기 호기심을 갈고 닦자`.
+
+## 성공적인 개발자가 되려면 어떡해야하나?
+
+재능이 있으면 좋다. 결국 앞의 두 단계를 해야한다.
+
+
+  
 
 출처 : [Youtube Startup Alliance Korea](https://www.youtube.com/watch?v=fHyTA-UIcqs)
