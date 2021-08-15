@@ -304,7 +304,28 @@ Reference [Book ref : I.M WRIGHT's HARD CODE](https://imwrightshardcode.com/)
 
 재능이 있으면 좋다. 결국 앞의 두 단계를 해야한다.
 
+## 사장이 되려면 어떡해야하나?
 
+회사에 벌어지고 있는 모든 일을 책임져야한다.
+
+## 회사에서 사람을 뽑을 때 무엇을 보는가?
+
+* `똑똑한가?`
+
+* `부지런한가?`
+
+* `착한가?` 
   
+## 좋은 커뮤니케이션 스킬이란?
+
+상대가 말을 하는 걸 최대한 들어주는 것.
+
+
+> 띵언<br>
+>I don't divide the world into the weak and the strong, or the successes and the failures, those who make it or those who don't.
+> 
+> `I divide the world into learners and non-learners.`
+> 
+>  Benjamin R.Barber
 
 출처 : [Youtube Startup Alliance Korea](https://www.youtube.com/watch?v=fHyTA-UIcqs)
